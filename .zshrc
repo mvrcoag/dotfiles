@@ -1,0 +1,11 @@
+export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias ask="gemini -p"
+alias vim="nvim"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m $1"
+alias gl="git log --graph"
