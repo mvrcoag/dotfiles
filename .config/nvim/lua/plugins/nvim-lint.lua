@@ -8,5 +8,5 @@ return {
 			["*.js"] = "eslint_d",
 			["*.jsx"] = "eslint_d",
 		}
-	end
+	end,
 }

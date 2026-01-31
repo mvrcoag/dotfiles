@@ -8,9 +8,6 @@ return {
 				typescript = require("formatter.filetypes.javascript").prettier,
 				typescriptreact = require("formatter.filetypes.javascript").prettier,
 				javascriptreact = require("formatter.filetypes.javascript").prettier,
-				html = require("formatter.filetypes.html").prettier,
-				python = require("formatter.filetypes.python").black,
-				go = require("formatter.filetypes.go").gofmt,
 			},
 		})
 	end,
