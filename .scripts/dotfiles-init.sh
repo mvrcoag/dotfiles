@@ -18,7 +18,7 @@ fi
 config checkout
 config config status.showUntrackedFiles no
 
-declare INSTALL_CMDS = (
+declare INSTALL_CMDS=(
     "npm i -g bash-language-server",
     "npm i -g typescript-language-server typescript",
     "npm i -g tailwindcss-language-server",

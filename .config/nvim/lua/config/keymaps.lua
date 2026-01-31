@@ -30,5 +30,3 @@ map("n", "gr", vim.lsp.buf.references)
 map("n", "rn", vim.lsp.buf.rename)
 map("n", "gi", vim.lsp.buf.implementation)
 map("n", "gs", vim.lsp.buf.signature_help)
-
-map("n", "1", "$", opts)
