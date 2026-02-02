@@ -24,6 +24,7 @@ declare INSTALL_CMDS=(
     "npm i -g tailwindcss-language-server",
     "brew install stylua",
     "brew install lua-language-server",
+    "brew install font-jetbrains-mono",
 )
 
 echo "Running LSP installation commands..."

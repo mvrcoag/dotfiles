@@ -1,13 +1,16 @@
 local opts = {
 	ensure_installed = {
 		"javascript",
-        "typescript",
-        "markdown",
-        "markdown_inline",
-        "html",
-        "python",
-        "go"
-	}
+		"typescript",
+		"markdown",
+		"markdown_inline",
+		"html",
+		"python",
+		"go",
+	},
+	highlight = {
+		enable = true,
+	},
 }
 
 local function config()
@@ -17,5 +20,5 @@ end
 return {
 	"nvim-treesitter/nvim-treesitter",
 	config = config,
-	build = ":TSUpdate"
+	build = ":TSUpdate",
 }

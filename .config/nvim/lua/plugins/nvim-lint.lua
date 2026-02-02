@@ -1,7 +1,7 @@
 return {
 	"mfussenegger/nvim-lint",
 	config = function()
-		lint = require("lint")
+		local lint = require("lint")
 		lint.linters_by_ft = {
 			["*.ts"] = "eslint_d",
 			["*.tsx"] = "eslint_d",
