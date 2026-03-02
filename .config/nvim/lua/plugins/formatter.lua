@@ -8,6 +8,7 @@ return {
 				typescript = require("formatter.filetypes.javascript").prettier,
 				typescriptreact = require("formatter.filetypes.javascript").prettier,
 				javascriptreact = require("formatter.filetypes.javascript").prettier,
+				python = require("formatter.filetypes.python").black,
 			},
 		})
 	end,
