@@ -35,6 +35,7 @@ PROMPT='%B%F{#c4a7e7}%n%f%b in %B%F{#9ccfd8}%~%f%b${vcs_info_msg_0_}$(parse_git_
 export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias ask="gemini -p"
@@ -43,3 +44,7 @@ alias gs="git status"
 alias ga="git add"
 alias gc="git commit -m $1"
 alias gl="git log --graph"
+
+if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+    export TERM=xterm-256color
+fi
